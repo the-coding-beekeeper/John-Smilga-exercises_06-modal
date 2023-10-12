@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>modal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="basic-layer">
+    <div class="message-field">
+      <h1>Modal <span>Project</span></h1>
+      <button id="open-modal-btn" onclick="newDiv()">OPEN MODAL</button>
+    </div>
+  </div>
+  <div class="modal-layer toggle">
+      <div class="message-field">
+        <button id="close-modal-btn" onclick="newDiv()"><img src="close.png" /></button>
+        <h2 id="modal-message">Modal Content</h2>
+        <a  class="link" href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by Pixel perfect - Flaticon</a>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
